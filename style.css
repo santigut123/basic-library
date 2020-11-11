@@ -1,0 +1,81 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  padding: 0;
+  border: 0;
+  margin: 0;
+}
+.box{
+    display:flex;
+    height:100vh;
+    width: 100vw;
+    flex-direction: column;
+}
+.book{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width:12.5vw;
+    height: 37.5vh;
+    background-color: rgb(59, 57, 59);
+
+}
+.library{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: bisque;
+    height: 75vh;
+    
+}  
+.book-info{
+    color:white;
+    font-size: 3vh;
+}
+.header{
+    color:rgb(255, 209, 209);
+    font-size: 10vh;
+    height: 15vh;
+    text-align: center;
+    background-color: rgb(88, 76, 61);
+    font-weight: bold;
+    letter-spacing:.5vw ;
+}   
+.title{
+    color:white;
+}  
+.settings{
+    display:flex;
+    justify-content:flex-end ;
+    align-content: flex-end;
+    height:10vh ;
+    background-color:rgb(88, 76, 61);
+    align-items: flex-end;
+    
+}
+#addBook{
+    width:20vw;
+    height:10vh;
+    font-size: 7vh;
+    background-color: rgb(224, 173, 216);
+    
+
+}
+#addBook:hover{
+    background-color: rgb(185, 108, 175);
+}
+form{
+    color: honeydew;
+    font-size: 3vh;
+}
+input{
+    height: 4vh;
+    
+}
+.changeStatus
+{
+    font-size: 4vh;
+    color:black;
+    vertical-align: bottom;
+    
+}
